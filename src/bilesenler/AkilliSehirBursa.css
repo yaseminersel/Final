@@ -1,0 +1,88 @@
+.akilli-sehir {
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+  }
+  
+  .baslik {
+    color: #088048;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .akilli-sehir
+  h3 {
+    margin-bottom: 10px;
+    color: #088048;
+    font-weight: bold;
+    font-size: 20px;
+
+    
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .liste {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-style: italic;
+    
+  }
+  
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  } 
+ 
+  .arka-plan-bolumu {
+    background-image: url('akillisehir.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 400px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+   
+  }
+  .iletisim-bilgileri, .yararli-siteler {
+    margin-bottom: 20px;
+  }
+  
+  .iletisim-bilgileri h3, .yararli-siteler h3 {
+    color: #088048;
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  .iletisim-bilgileri p {
+    margin-bottom: 10px;
+  }
+  
+  .yararli-siteler ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .yararli-siteler ul li {
+    margin-bottom: 5px;
+  }
+  
+  .yararli-siteler ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .yararli-siteler ul li a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,22 @@
+.ana-sayfa {
+    display: flex; 
+    justify-content: space-between; 
+  }
+  
+  .sol-taraf {
+    width: 50%; 
+    padding: 10px;
+    margin: 10px;
+    
+
+  }
+  
+  .sag-taraf {
+    width: 50%; 
+    padding: 10px;
+    margin: 10px;
+  
+  }
+  .body{
+    background-image: url(/public/arkplan.jpeg);
+  }

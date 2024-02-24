@@ -1,0 +1,15 @@
+.video-container {
+ 
+  z-index: 1;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 10px;
+  height: 0;
+  max-width:auto;
+  overflow: hidden;
+ 
+  
+
+
+
+}
