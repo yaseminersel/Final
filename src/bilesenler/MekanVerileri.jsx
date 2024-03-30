@@ -10,7 +10,7 @@ const MekanVerileri = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/bursa_tarihimekanlar.csv');
+        const response = await fetch('/public/bursa_tarihimekanlar.csv');
         const csv = await response.text();
         const { data } = Papa.parse(csv, { header: true });
         setMekanlar(data.map(item => item.ad));
